@@ -7,10 +7,11 @@ import Introduction from '../components/introduction/Intorduction';
 import Projects from '../components/project/Projects';
 import Skills from '../components/skill/Skills';
 import Header from '../components/header';
-
+import Navbar from "../components/navbar/Navbar"
 export default function Home() {
   return (
     <>
+    <Navbar/>
       <Header/>
       <div className='pt-5'></div>
       <Introduction/>
