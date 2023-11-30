@@ -8,6 +8,11 @@ export default function Wish() {
 
     <div className="night"></div>
     <Head>
+        <title>Wish You Have Sweet December</title>
+        <meta name="description" content="Sai Marn Pha portfolio | saimarnpha.com" />
+        <meta name="keywords" content="Sai Marn Pha. Sai Marn Pha portfolio" />
+        <meta name="author" content="Sai Marn Pha" />
+        <link rel="icon" type="image/x-icon" sizes="16x16" href="/favicon.ico" />
       <link rel="stylesheet" href="flower.css" />
     </Head>
     <div className="flowers">
