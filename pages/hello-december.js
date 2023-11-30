@@ -7,6 +7,9 @@ export default function Wish() {
     return <>
 
     <div className="night"></div>
+    <Head>
+      <link rel="stylesheet" href="flower.css" />
+    </Head>
     <div className="flowers">
       <div className="flower flower--1">
         <div className="flower__leafs flower__leafs--1">
@@ -303,9 +306,5 @@ export default function Wish() {
         </div>
       </div>
     </div>
-
-    <Head>
-      <link rel="stylesheet" href="flower.css" />
-    </Head>
     </>
 }
