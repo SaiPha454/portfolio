@@ -55,16 +55,16 @@ const extraSkills = [
         skills: [
             { label: "HTML", percentage: 40 },
             { label: "CSS", percentage: 60 },
-            { label: "SASS", percentage: 50 },
-            { label: "JS", percentage: 80 },
+            { label: "SASS", percentage: 60 },
+            { label: "Nextjs", percentage: 60 },
         ]
     },
     {   type: "back-end", className: "extra-skill-back-end", icon: "bi bi-hdd-rack", label: "Back-end",
         skills: [
-            { label: "HTML", percentage: 40 },
-            { label: "CSS", percentage: 60 },
-            { label: "SASS", percentage: 50 },
-            { label: "JS", percentage: 80 },
+            { label: "ExpressJs", percentage: 80 },
+            { label: "MongoDB", percentage: 70 },
+            { label: "SQL Databases", percentage: 60 },
+            { label: "Docker", percentage: 60 },
         ]
     },
 ]
