@@ -5,7 +5,7 @@ export default function Description() {
     <div className='col-sm-12 col-md-6 text-start order-md-first'>
         <span className='text-1 text-dark'>Hi, I&apos;m Sai.</span>
         <span className='desc-text-1 animated-text'>
-            I am a <span className='text-developer'>Junior Web Developer</span>
+            With experiences in <span className='text-developer'>MERN Stack</span>
         </span>
         
         <p className='para-text-dark'>

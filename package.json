@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "compile:sass": "sass --watch scss:styles/css --load-path=node_modules/",
-    "purge:css": "purgecss --css styles/css/main.css --content components/*.js --output styles/css/dist --config postcss.config.js"
+    "purge:css": "purgecss --css styles/css/main.css --content components/*.js --output styles/css --config postcss.config.js"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
