@@ -11,16 +11,16 @@ export default function Education() {
             <div className='row text-center mt-5'>
                 <div className='col-12 col-sm-12 col-md-6 education-section-matriculation'>
                     <Institution icon={<i className="bi bi-mortarboard"></i>} 
-                    institute="Matriculation"
-                    location="Lashio, Shan State"
-                    academic="2016-2017"
+                    institute="College"
+                    location={<>Mandalay Technological University</>}
+                    academic={<><small>Mechatronic Engineering</small> <br/> 2017-2021</>}
                     />
                 </div>
                 <div className='col-12 col-sm-12 col-md-6 mt-3 mt-md-5 pt-md-5'>
                     <Institution icon={<i className="bi bi-mortarboard"></i>} 
                     institute="College"
-                    location="MTU, Mandalay"
-                    academic="2017-present"
+                    location={<>KMITL, Thailand</>}
+                    academic={<><small>Software Engineering</small> <br/> 2022-present</>}
                     />
                 </div>
             </div>

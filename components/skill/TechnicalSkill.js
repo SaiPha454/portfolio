@@ -39,8 +39,8 @@ export default function TechnicalSkill() {
 }
 
 const skills = [
-  { label: 'Javascript', percent: 80 },
+  { label: 'Javascript', percent: 70 },
   { label: 'Typescript', percent: 60 },
-  { label: 'NodeJs', percent: 60 },
+  { label: 'NodeJs', percent: 70 },
   { label: 'Reactjs', percent: 60 }
 ];

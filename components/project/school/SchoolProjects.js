@@ -1,25 +1,34 @@
 import React from 'react'
-import YoutubeVideo from './YoutubeVideo'
-import faceDetection from '../../../public/images/thumbnail/face_detection.jpg'
-import iot from '../../../public/images/thumbnail/iot.jpg'
-import mBot from '../../../public/images/thumbnail/mbot.jpg'
-import voiceRec from '../../../public/images/thumbnail/voice_rec.jpg'
+import SemesterProject from './SemesterProject'
+
+import Xpress from "../../../public/images/project/xpress.png"
+import MusicPlayer from "../../../public/images/project/music_player.png"
+import NQueen from "../../../public/images/project/nqueen.png"
+import Scrapper from "../../../public/images/project/scrapper.png"
 
 export default function SchoolProject() {
   return (
     <div className='mt-5 pt-5'>
         <div className='text-center my-3 pb-3'>
-            <span className='text-2'>School Projects</span>
+            {/* <span className='text-2'>Semester Projects</span> */}
         </div>
         <div className='row gy-5'>
-            <YoutubeVideo url="https://www.youtube.com/embed/Ki4RgO5zAJw?rel=0&autoplay=1"
-                coverImg={faceDetection} title="Face detection game with Tensorflow.js"/>
-            <YoutubeVideo url="https://www.youtube.com/embed/CIGVztbXEic?rel=0&autoplay=1"
-                coverImg={voiceRec} title="Control Arduino with voice recognition using C# programming"/>
-            <YoutubeVideo url="https://www.youtube.com/embed/GVLbO-XuglU?rel=0&autoplay=1"
-                coverImg={iot} title="Internet of things with NodeMCU ESP8266 & PHP Server"/>
-            <YoutubeVideo url="https://www.youtube.com/embed/BlnrbDlhXpA?rel=0&autoplay=1"
-                coverImg={mBot} title="mBot object avoiding & line following with Scratch Programming"/>
+            <SemesterProject coverImg={Xpress} 
+              title="XpressJS: A Node.js Framework Inspired by ExpressJS"
+              sourceCode="https://github.com/SaiPha454/xpressjs"
+              />
+            <SemesterProject coverImg={MusicPlayer} 
+              title="MelodiMix: A Music Player Developed with C++ and the Qt Framework"
+              sourceCode="https://github.com/SaiPha454/melodimix/tree/main/MelodiMix"
+              />
+            <SemesterProject coverImg={NQueen} 
+              title="NQueen: A Multi-Level Puzzle Game Built with Python and Tkinter"
+              sourceCode="https://github.com/SaiPha454/Python_NQueen"
+              />
+            <SemesterProject coverImg={Scrapper} 
+              title="Web Scraper: A Rust-based Project for Analyzing BBC Homepage Content and Reporting Statistics"
+              sourceCode="https://github.com/SaiPha454/Rust_BBC_HomePage_Analysis"
+            />
         </div>
     </div>
   )

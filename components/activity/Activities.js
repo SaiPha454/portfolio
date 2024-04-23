@@ -14,7 +14,7 @@ export default function Activities() {
     <div className='activity-section mt-5 pt-5'>
         <div className='container'>
             <div className='text-center'>
-                <span className='text-3'>Activity & Achievement</span>
+                <span className='text-3'> Semester Projects</span>
             </div>
             <div className='row mt-5 g-3'>
                 {

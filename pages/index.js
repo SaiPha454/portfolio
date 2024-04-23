@@ -18,7 +18,6 @@ export default function Home() {
       <About/>
       <Skills />
       <Education/>
-      <Activities/>
       <Projects/>
       <Footer/>
     </>
