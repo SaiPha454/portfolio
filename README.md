@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio Website
 
-## Getting Started
+Welcome to the repository for my personal portfolio website! This project showcases my skills, education, and projects, providing an overview of my experience as a developer.
 
-First, run the development server:
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [License](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About the Project
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This portfolio website was built using **Next.js**, a React framework known for its performance and SEO optimization capabilities. I used **Static Site Generation (SSG)** to ensure fast load times and optimized performance, which is particularly beneficial for a portfolio site. The styling is done with **SCSS**, providing modular and maintainable styles for each section of the site.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The website consists of four main sections:
+1. **Home** - A brief introduction and welcome message.
+2. **Skills** - A list of my technical skills and proficiencies.
+3. **Education** - My educational background and relevant academic achievements.
+4. **Projects** - Showcases some of my recent work, including links and descriptions.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Technologies Used
 
-## Learn More
+- **Next.js**: Used for building and optimizing the React-based static site.
+- **React**: Frontend framework for creating interactive user interfaces.
+- **SCSS**: CSS preprocessor for styling, allowing for better organization and reusable style components.
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Static Site Generation (SSG)**: Enhances performance by pre-rendering pages at build time.
+- **Responsive Design**: Ensures the site is accessible and looks good on all devices.
+- **Clean and Modern UI**: Simple, visually appealing design for a professional online presence.
+- **Modular Codebase**: Uses Next.js and SCSS to create a maintainable, component-based code structure.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Setup and Installation
 
-## Deploy on Vercel
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-portfolio-repo.git
+   cd your-portfolio-repo
+   npm install
+   npm run dev
+Open http://localhost:3000 in browser to see the website.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
+This website is designed to serve as a personal portfolio and resume, allowing visitors to explore my skills, education, and recent projects. It’s hosted online, but you can also run it locally by following the setup instructions above.
+
+## License
+This project is open source and available under the MIT License.
