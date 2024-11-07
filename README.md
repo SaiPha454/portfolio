@@ -8,6 +8,7 @@ Welcome to the repository for my personal portfolio website! This project showca
 - [Features](#features)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
+- [Future Developments](#future-developments)
 - [License](#license)
 
 ---
@@ -48,6 +49,12 @@ Open http://localhost:3000 in browser to see the website.
 
 ## Usage
 This website is designed to serve as a personal portfolio and resume, allowing visitors to explore my skills, education, and recent projects. It’s hosted online, but you can also run it locally by following the setup instructions above.
+
+## Future Developments
+As I continue to grow in my career, I plan to make the following updates to the website:
+
+- **Expand the Experience Section:** Add more details about my work experience as I gain new roles and responsibilities in the industry.
+- **Personal Blog:** Create a blog section where I can share insights, tutorials, and reflections on my learning journey.
 
 ## License
 This project is open source and available under the MIT License.
