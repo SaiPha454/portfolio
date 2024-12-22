@@ -5,6 +5,8 @@ import Xpress from "../../../public/images/project/xpress.png"
 import MusicPlayer from "../../../public/images/project/music_player.png"
 import NQueen from "../../../public/images/project/nqueen.png"
 import Scrapper from "../../../public/images/project/scrapper.png"
+import SETAHubImg from "../../../public/images/project/setahub.png"
+import CDGImg from "../../../public/images/project/cdg.png"
 
 export default function SchoolProject() {
   return (
@@ -13,6 +15,15 @@ export default function SchoolProject() {
             {/* <span className='text-2'>Semester Projects</span> */}
         </div>
         <div className='row gy-5'>
+            <SemesterProject coverImg={CDGImg} 
+              title="First Winner of CDG x 42 Bangkok Hackathon competition Season 2 ( 2024 )"
+              sourceCode="https://www.linkedin.com/posts/sai-marn-pha-071115237_cdg-42bangkok-heightmeasuringsystem-activity-7198163286805135361-tD59?utm_source=share&utm_medium=member_desktophttps://www.linkedin.com/posts/sai-marn-pha-071115237_cdg-42bangkok-heightmeasuringsystem-activity-7198163286805135361-tD59"
+            />
+            <SemesterProject coverImg={SETAHubImg} 
+              title="SETAHub: A mentorship platform that connects junior students with senior students at KMILT.
+              Built with React.js & FastAPI."
+              sourceCode="https://github.com/SaiPha454/SETAHub"
+            />
             <SemesterProject coverImg={Xpress} 
               title="XpressJS: A Node.js Framework Inspired by ExpressJS"
               sourceCode="https://github.com/SaiPha454/xpressjs"
